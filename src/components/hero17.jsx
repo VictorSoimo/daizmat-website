@@ -2,6 +2,8 @@ import React, { Fragment } from 'react'
 
 import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
+import image1 from '../assets/website/image 1.jpg'
+import image2 from '../assets/website/img-2.jpg'
 
 import './hero17.css'
 
@@ -221,8 +223,7 @@ Hero17.defaultProps = {
   image8Src:
     'https://images.unsplash.com/photo-1736066331155-c95740b0bd6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNXw&ixlib=rb-4.0.3&q=80&w=1080',
   content1: undefined,
-  image2Src:
-    'https://images.unsplash.com/photo-1544833058-e70f9ca25c17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxM3w&ixlib=rb-4.0.3&q=80&w=1080',
+  image2Src: image2,
   image10Src:
     'https://images.unsplash.com/photo-1708346319652-7f22fcb91a0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxOHw&ixlib=rb-4.0.3&q=80&w=1080',
   image9Alt: 'Collaborative Workstations',
@@ -236,8 +237,7 @@ Hero17.defaultProps = {
   image12Alt: 'Office Accessories',
   image7Src:
     'https://images.unsplash.com/photo-1554774853-6a56f62c6451?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
-  image1Src:
-    'https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxOHw&ixlib=rb-4.0.3&q=80&w=1080',
+  image1Src: image1,
   image12Src:
     'https://images.unsplash.com/photo-1601465401250-bfeaba56cb3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
   action1: undefined,

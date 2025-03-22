@@ -11,11 +11,7 @@ const Navbar8 = (props) => {
   return (
     <header className="navbar8-container1">
       <header data-thq="thq-navbar" className="navbar8-navbar-interactive">
-        <img
-          alt={props.logoAlt}
-          src={props.logoSrc}
-          className="navbar8-image1"
-        />
+       
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
           <nav className="navbar8-links1">
             <a
@@ -35,46 +31,13 @@ const Navbar8 = (props) => {
                 </Fragment>
               )}
             </a>
-            <a
-              href={props.link3Url}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="navbar8-link31 thq-body-small thq-link"
-            >
-              {props.link3 ?? (
-                <Fragment>
-                  <span className="navbar8-text20">#contact</span>
-                </Fragment>
-              )}
-            </a>
-            <div
-              onClick={() => setLink5DropdownVisible(!link5DropdownVisible)}
-              className="navbar8-link4-dropdown-trigger"
-            >
-              <span className="thq-body-small thq-link">
-                {props.link4 ?? (
-                  <Fragment>
-                    <span className="navbar8-text23">Link 4</span>
-                  </Fragment>
-                )}
-              </span>
-              <div className="navbar8-icon-container1">
-                {link5DropdownVisible && (
-                  <div className="navbar8-container2">
-                    <svg viewBox="0 0 1024 1024" className="navbar8-icon10">
-                      <path d="M298 426h428l-214 214z"></path>
-                    </svg>
-                  </div>
-                )}
-                {!link5DropdownVisible && (
-                  <div className="navbar8-container3">
-                    <svg viewBox="0 0 1024 1024" className="navbar8-icon12">
-                      <path d="M426 726v-428l214 214z"></path>
-                    </svg>
-                  </div>
-                )}
-              </div>
-            </div>
+            <img
+          alt={props.logoAlt}
+          src={props.logoSrc}
+          className="navbar8-image1"
+        />
+           
+           
           </nav>
           <div className="navbar8-buttons1">
             <button className="navbar8-action11 thq-button-animated thq-button-filled">
@@ -485,11 +448,11 @@ Navbar8.defaultProps = {
   page2Description: undefined,
   page4ImageSrc:
     'https://images.unsplash.com/photo-1677892917289-07603a49f38d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxM3w&ixlib=rb-4.0.3&q=80&w=1080',
-  linkUrlPage4: 'https://www.teleporthq.io',
+  linkUrlPage4: '',
   page1ImageAlt: 'Office Furniture Store',
   link2: undefined,
-  link2Url: 'https://www.teleporthq.io',
-  link3Url: 'https://www.teleporthq.io',
+  link2Url: '',
+  link3Url: '',
   page4Description: undefined,
   logoAlt: 'logo',
 }

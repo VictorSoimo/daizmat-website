@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
-
+import logo from '../assets/website/Logo.png'
 import './footer4.css'
 
 const Footer4 = (props) => {
@@ -18,7 +18,7 @@ const Footer4 = (props) => {
           </div>
           <div className="footer4-links">
             <a
-              href="https://example.com"
+              href=""
               target="_blank"
               rel="noreferrer noopener"
               className="thq-body-small"
@@ -30,7 +30,7 @@ const Footer4 = (props) => {
               )}
             </a>
             <a
-              href="https://example.com"
+              href=""
               target="_blank"
               rel="noreferrer noopener"
               className="thq-body-small"
@@ -42,7 +42,7 @@ const Footer4 = (props) => {
               )}
             </a>
             <a
-              href="https://example.com"
+              href=""
               target="_blank"
               rel="noreferrer noopener"
               className="thq-body-small"
@@ -53,37 +53,14 @@ const Footer4 = (props) => {
                 </Fragment>
               )}
             </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="thq-body-small"
-            >
-              {props.link4 ?? (
-                <Fragment>
-                  <span className="footer4-text16">Link 4</span>
-                </Fragment>
-              )}
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="thq-body-small"
-            >
-              {props.link5 ?? (
-                <Fragment>
-                  <span className="footer4-text19">Link 5</span>
-                </Fragment>
-              )}
-            </a>
+            
           </div>
         </div>
         <div className="footer4-credits">
           <div className="thq-divider-horizontal"></div>
           <div className="footer4-row">
             <div className="footer4-container">
-              <span className="thq-body-small">© 2024 TeleportHQ</span>
+              <span className="thq-body-small">© 2025 DaizmatFurniture&Interiors</span>
             </div>
             <div className="footer4-footer-links">
               <span className="footer4-text11 thq-body-small">
@@ -116,7 +93,7 @@ const Footer4 = (props) => {
 }
 
 Footer4.defaultProps = {
-  logoSrc: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
+  logoSrc: logo,
   logoAlt: 'Office Furniture Vendor Logo',
   privacyLink: undefined,
   link2: undefined,
