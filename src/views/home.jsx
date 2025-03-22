@@ -7,109 +7,46 @@ import Hero17 from '../components/hero17'
 import Features24 from '../components/features24'
 import CTA26 from '../components/cta26'
 import Features25 from '../components/features25'
-import Pricing14 from '../components/pricing14'
 import Steps2 from '../components/steps2'
 import Testimonial17 from '../components/testimonial17'
 import Contact10 from '../components/contact10'
 import Footer4 from '../components/footer4'
 import './home.css'
 
+
 const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
         <title>Daizmat Furniture & Interiors</title>
-        <meta property="og:title" content="Ornate Substantial Shark" />
+        <meta property="og:title" content="Daizmat Furniture & Interiors" />
       </Helmet>
       <Navbar8
         link1={
           <Fragment>
-            <span className="home-text100">#home</span>
+            <span className="Contacts-text100">Contacts</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="home-text101">#about</span>
+            <span className="about-text101">About</span>
           </Fragment>
         }
-        link3={
-          <Fragment>
-            <span className="home-text102">#contact</span>
-          </Fragment>
-        }
-        link4={
-          <Fragment>
-            <span className="home-text103">Link 4</span>
-          </Fragment>
-        }
-        page1={
-          <Fragment>
-            <span className="home-text104">Home</span>
-          </Fragment>
-        }
-        page2={
-          <Fragment>
-            <span className="home-text105">About</span>
-          </Fragment>
-        }
-        page3={
-          <Fragment>
-            <span className="home-text106">Contact</span>
-          </Fragment>
-        }
-        page4={
-          <Fragment>
-            <span className="home-text107">Page Four</span>
-          </Fragment>
-        }
+       
         action1={
           <Fragment>
-            <span className="home-text108">Main Action</span>
+            <span className="home-text108">Visit Us</span>
           </Fragment>
         }
         action2={
           <Fragment>
-            <span className="home-text109">Secondary Action</span>
+            <span className="home-text109">Call Us</span>
           </Fragment>
         }
-        page1Description={
-          <Fragment>
-            <span className="home-text110">
-              Welcome to our office furniture store
-            </span>
-          </Fragment>
-        }
-        page2Description={
-          <Fragment>
-            <span className="home-text111">
-              Learn more about our company and values
-            </span>
-          </Fragment>
-        }
-        page3Description={
-          <Fragment>
-            <span className="home-text112">
-              Get in touch with us for inquiries or support
-            </span>
-          </Fragment>
-        }
-        page4Description={
-          <Fragment>
-            <span className="home-text113">Page Four Description</span>
-          </Fragment>
-        }
+        
       ></Navbar8>
       <Hero17
-        action1={
-          <Fragment>
-            <span className="home-text114">Shop Now</span>
-          </Fragment>
-        }
-        action2={
-          <Fragment>
-            <span className="home-text115">Learn More</span>
-          </Fragment>
-        }
+        
         content1={
           <Fragment>
             <span className="home-text116">
@@ -226,272 +163,7 @@ const Home = (props) => {
           </Fragment>
         }
       ></Features25>
-      <Pricing14
-        plan1={
-          <Fragment>
-            <span className="home-text133">Basic plan</span>
-          </Fragment>
-        }
-        plan2={
-          <Fragment>
-            <span className="home-text134">Business plan</span>
-          </Fragment>
-        }
-        plan3={
-          <Fragment>
-            <span className="home-text135">Enterprise plan</span>
-          </Fragment>
-        }
-        plan11={
-          <Fragment>
-            <span className="home-text136">Basic plan</span>
-          </Fragment>
-        }
-        plan21={
-          <Fragment>
-            <span className="home-text137">Business plan</span>
-          </Fragment>
-        }
-        plan31={
-          <Fragment>
-            <span className="home-text138">Enterprise plan</span>
-          </Fragment>
-        }
-        content1={
-          <Fragment>
-            <span className="home-text139">
-              Choose the perfect plan for you
-            </span>
-          </Fragment>
-        }
-        content2={
-          <Fragment>
-            <span className="home-text140">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-          </Fragment>
-        }
-        heading1={
-          <Fragment>
-            <span className="home-text141">Pricing plan</span>
-          </Fragment>
-        }
-        plan1Price={
-          <Fragment>
-            <span className="home-text142">$199</span>
-          </Fragment>
-        }
-        plan2Price={
-          <Fragment>
-            <span className="home-text143">$299</span>
-          </Fragment>
-        }
-        plan3Price={
-          <Fragment>
-            <span className="home-text144">$399</span>
-          </Fragment>
-        }
-        plan1Action={
-          <Fragment>
-            <span className="home-text145">Shop Now</span>
-          </Fragment>
-        }
-        plan1Price1={
-          <Fragment>
-            <span className="home-text146">$200/yr</span>
-          </Fragment>
-        }
-        plan1Yearly={
-          <Fragment>
-            <span className="home-text147">$1999</span>
-          </Fragment>
-        }
-        plan2Action={
-          <Fragment>
-            <span className="home-text148">Shop Now</span>
-          </Fragment>
-        }
-        plan2Price1={
-          <Fragment>
-            <span className="home-text149">$299/yr</span>
-          </Fragment>
-        }
-        plan2Yearly={
-          <Fragment>
-            <span className="home-text150">$2999</span>
-          </Fragment>
-        }
-        plan3Action={
-          <Fragment>
-            <span className="home-text151">Shop Now</span>
-          </Fragment>
-        }
-        plan3Price1={
-          <Fragment>
-            <span className="home-text152">$499/yr</span>
-          </Fragment>
-        }
-        plan3Yearly={
-          <Fragment>
-            <span className="home-text153">$3999</span>
-          </Fragment>
-        }
-        plan1Action1={
-          <Fragment>
-            <span className="home-text154">Get started</span>
-          </Fragment>
-        }
-        plan1Yearly1={
-          <Fragment>
-            <span className="home-text155">or $20 monthly</span>
-          </Fragment>
-        }
-        plan2Action1={
-          <Fragment>
-            <span className="home-text156">Get started</span>
-          </Fragment>
-        }
-        plan2Yearly1={
-          <Fragment>
-            <span className="home-text157">or $29 monthly</span>
-          </Fragment>
-        }
-        plan3Action1={
-          <Fragment>
-            <span className="home-text158">Get started</span>
-          </Fragment>
-        }
-        plan3Yearly1={
-          <Fragment>
-            <span className="home-text159">or $49 monthly</span>
-          </Fragment>
-        }
-        plan1Feature1={
-          <Fragment>
-            <span className="home-text160">Ergonomic design</span>
-          </Fragment>
-        }
-        plan1Feature2={
-          <Fragment>
-            <span className="home-text161">Adjustable height</span>
-          </Fragment>
-        }
-        plan1Feature3={
-          <Fragment>
-            <span className="home-text162">Durable materials</span>
-          </Fragment>
-        }
-        plan2Feature1={
-          <Fragment>
-            <span className="home-text163">Sleek modern design</span>
-          </Fragment>
-        }
-        plan2Feature2={
-          <Fragment>
-            <span className="home-text164">Storage compartments</span>
-          </Fragment>
-        }
-        plan2Feature3={
-          <Fragment>
-            <span className="home-text165">Easy assembly</span>
-          </Fragment>
-        }
-        plan2Feature4={
-          <Fragment>
-            <span className="home-text166">Feature text goes here</span>
-          </Fragment>
-        }
-        plan3Feature1={
-          <Fragment>
-            <span className="home-text167">Executive style</span>
-          </Fragment>
-        }
-        plan3Feature2={
-          <Fragment>
-            <span className="home-text168">Luxurious finish</span>
-          </Fragment>
-        }
-        plan3Feature3={
-          <Fragment>
-            <span className="home-text169">Spacious desk area</span>
-          </Fragment>
-        }
-        plan3Feature4={
-          <Fragment>
-            <span className="home-text170">Feature text goes here</span>
-          </Fragment>
-        }
-        plan3Feature5={
-          <Fragment>
-            <span className="home-text171">Feature text goes here</span>
-          </Fragment>
-        }
-        plan1Feature11={
-          <Fragment>
-            <span className="home-text172">Feature text goes here</span>
-          </Fragment>
-        }
-        plan1Feature21={
-          <Fragment>
-            <span className="home-text173">Feature text goes here</span>
-          </Fragment>
-        }
-        plan1Feature31={
-          <Fragment>
-            <span className="home-text174">Feature text goes here</span>
-          </Fragment>
-        }
-        plan2Feature11={
-          <Fragment>
-            <span className="home-text175">Feature text goes here</span>
-          </Fragment>
-        }
-        plan2Feature21={
-          <Fragment>
-            <span className="home-text176">Feature text goes here</span>
-          </Fragment>
-        }
-        plan2Feature31={
-          <Fragment>
-            <span className="home-text177">Feature text goes here</span>
-          </Fragment>
-        }
-        plan2Feature41={
-          <Fragment>
-            <span className="home-text178">Feature text goes here</span>
-          </Fragment>
-        }
-        plan3Feature11={
-          <Fragment>
-            <span className="home-text179">Feature text goes here</span>
-          </Fragment>
-        }
-        plan3Feature21={
-          <Fragment>
-            <span className="home-text180">Feature text goes here</span>
-          </Fragment>
-        }
-        plan3Feature31={
-          <Fragment>
-            <span className="home-text181">Feature text goes here</span>
-          </Fragment>
-        }
-        plan3Feature41={
-          <Fragment>
-            <span className="home-text182">Feature text goes here</span>
-          </Fragment>
-        }
-        plan3Feature51={
-          <Fragment>
-            <span className="home-text183">Feature text goes here</span>
-          </Fragment>
-        }
-      ></Pricing14>
+      
       <Steps2
         step1Title={
           <Fragment>
@@ -643,8 +315,7 @@ const Home = (props) => {
         content1={
           <Fragment>
             <span className="home-text206">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in ero.
+              Call or Whatsap or SMS us at: 0726523678.
             </span>
           </Fragment>
         }
@@ -666,44 +337,19 @@ const Home = (props) => {
         location1Description={
           <Fragment>
             <span className="home-text210">
-              1234 Elm Street, Suite 100, City, State, Zip Code
+              Government road, Nakuru CBD
             </span>
           </Fragment>
         }
         location2Description={
           <Fragment>
             <span className="home-text211">
-              5678 Oak Avenue, Showroom Floor, City, State, Zip Code
+              Whitehouse, Next to Shell petrol station
             </span>
           </Fragment>
         }
       ></Contact10>
       <Footer4
-        link1={
-          <Fragment>
-            <span className="home-text212">Home</span>
-          </Fragment>
-        }
-        link2={
-          <Fragment>
-            <span className="home-text213">About</span>
-          </Fragment>
-        }
-        link3={
-          <Fragment>
-            <span className="home-text214">Contact</span>
-          </Fragment>
-        }
-        link4={
-          <Fragment>
-            <span className="home-text215">Link 4</span>
-          </Fragment>
-        }
-        link5={
-          <Fragment>
-            <span className="home-text216">Link 5</span>
-          </Fragment>
-        }
         termsLink={
           <Fragment>
             <span className="home-text217">Terms of Service</span>

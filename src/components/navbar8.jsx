@@ -1,6 +1,7 @@
 import React, { useState, Fragment } from 'react'
 
 import PropTypes from 'prop-types'
+import logo  from '../assets/website/Logo.png'
 
 import './navbar8.css'
 
@@ -459,19 +460,18 @@ Navbar8.defaultProps = {
   page4: undefined,
   page3ImageAlt: 'Contact Us',
   page2ImageAlt: 'About Us',
-  link1Url: 'https://www.teleporthq.io',
+  link1Url: '',
   page1Description: undefined,
   page3Description: undefined,
-  linkUrlPage1: 'https://www.teleporthq.io',
-  linkUrlPage3: 'https://www.teleporthq.io',
+  linkUrlPage1: '',
+  linkUrlPage3: '',
   page4ImageAlt: 'image',
   action2: undefined,
   action1: undefined,
-  linkUrlPage2: 'https://www.teleporthq.io',
+  linkUrlPage2: '',
   page3: undefined,
   link3: undefined,
-  logoSrc:
-    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
+  logoSrc: logo,
   page1: undefined,
   page3ImageSrc:
     'https://images.unsplash.com/photo-1554774853-6a56f62c6451?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
