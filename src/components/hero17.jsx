@@ -4,6 +4,16 @@ import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 import image1 from '../assets/website/image 1.jpg'
 import image2 from '../assets/website/img-2.jpg'
+import image3 from '../assets/website/benefits.jpg'
+import image4 from '../assets/website/img-3.jpeg'
+import image5 from '../assets/website/img-4.jpg'
+import image6 from '../assets/website/img-6.jpg'
+import image7 from '../assets/website/img-7.jpg'
+import image8 from '../assets/website/tbl-1.jpg'
+import image9 from '../assets/website/tbl-2.jpg'
+import image10 from '../assets/website/tbl-3.jpg'
+import image11 from '../assets/website/shop.jpg'
+import image12 from '../assets/website/shop2.jpg'
 
 import './hero17.css'
 
@@ -220,41 +230,31 @@ const Hero17 = (props) => {
 Hero17.defaultProps = {
   image2Alt: 'Ergonomic Chair',
   image7Alt: 'Workspace Dividers',
-  image8Src:
-    'https://images.unsplash.com/photo-1736066331155-c95740b0bd6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNXw&ixlib=rb-4.0.3&q=80&w=1080',
+  image8Src: image10,
   content1: undefined,
   image2Src: image2,
-  image10Src:
-    'https://images.unsplash.com/photo-1708346319652-7f22fcb91a0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxOHw&ixlib=rb-4.0.3&q=80&w=1080',
+  image10Src:image9,
   image9Alt: 'Collaborative Workstations',
   image8Alt: 'Executive Desk',
   image4Alt: 'Storage Cabinet',
-  image4Src:
-    'https://images.unsplash.com/photo-1634996955660-21853f822120?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxN3w&ixlib=rb-4.0.3&q=80&w=1080',
+  image4Src: image3,
   image5Alt: 'Reception Desk',
-  image11Src:
-    'https://images.unsplash.com/photo-1521206698660-5e077ff6f9c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
+  image11Src: image7,
   image12Alt: 'Office Accessories',
-  image7Src:
-    'https://images.unsplash.com/photo-1554774853-6a56f62c6451?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
+  image7Src:image11,
   image1Src: image1,
-  image12Src:
-    'https://images.unsplash.com/photo-1601465401250-bfeaba56cb3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
+  image12Src:image12,
   action1: undefined,
-  image9Src:
-    'https://images.unsplash.com/photo-1555421689-d68471e189f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNXw&ixlib=rb-4.0.3&q=80&w=1080',
+  image9Src: image8,
   image11Alt: 'Standing Desk',
   image6Alt: 'Conference Room Chairs',
   heading1: undefined,
-  image3Src:
-    'https://images.unsplash.com/photo-1677892917289-07603a49f38d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxM3w&ixlib=rb-4.0.3&q=80&w=1080',
-  image5Src:
-    'https://images.unsplash.com/photo-1523937986058-3643cb987697?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNnw&ixlib=rb-4.0.3&q=80&w=1080',
+  image3Src:image4,
+  image5Src:image5,
   image1Alt: 'Office Desk',
   image3Alt: 'Meeting Table',
   action2: undefined,
-  image6Src:
-    'https://images.unsplash.com/photo-1459184070881-58235578f004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
+  image6Src: image6,
   image10Alt: 'Office Lounge Furniture',
 }
 

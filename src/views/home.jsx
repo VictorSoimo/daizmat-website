@@ -90,7 +90,7 @@ const Home = (props) => {
         feature2Description={
           <Fragment>
             <span className="home-text122">
-              Sleek Conference Tables for Meetings
+              Sleek Conference Tables for Meetings.
             </span>
           </Fragment>
         }
