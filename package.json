@@ -1,0 +1,40 @@
+{
+  "name": "daizmat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "react":"^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^6.0.0",
+    "react-helmet": "^6.1.0",
+    "dangerous-html": "^0.1.13",
+    "prop-types": "15.7.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "vite": "^6.2.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "globals": "^15.15.0"
+  }
+
+}
