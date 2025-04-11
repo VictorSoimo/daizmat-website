@@ -280,7 +280,7 @@ const Home = (props) => {
         content1={
           <Fragment>
             <span className="home-text206">
-              Call or Whatsap or SMS us at: 0726523678.
+              Call or Whatsap or SMS us at: <a href="tel:+254788066666">0788066666</a>
             </span>
           </Fragment>
         }
