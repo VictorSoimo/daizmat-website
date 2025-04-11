@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
+import location1 from '../assets/website/location.jpg'
+import location2 from '../assets/website/location1.jpg'
 
 import './contact10.css'
 
@@ -103,13 +105,11 @@ const Contact10 = (props) => {
 }
 
 Contact10.defaultProps = {
-  location1ImageSrc:
-    'https://images.unsplash.com/photo-1619763515915-8e6d599f2935?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
+  location1ImageSrc: location1 ,
   location2: undefined,
   location1: undefined,
   content1: undefined,
-  location2ImageSrc:
-    'https://images.unsplash.com/photo-1544833058-e70f9ca25c17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxM3w&ixlib=rb-4.0.3&q=80&w=1080',
+  location2ImageSrc: location2,
   location1ImageAlt: 'Main Office Image',
   location2Description: undefined,
   heading1: undefined,

@@ -3,6 +3,7 @@ import React, { useState, Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import './features24.css'
+import healthmesh from '../assets/website/mesh.jpg'
 
 const Features24 = (props) => {
   const [activeTab, setActiveTab] = useState(0)
@@ -132,8 +133,7 @@ Features24.defaultProps = {
     'https://images.unsplash.com/photo-1623679072629-3aaa0192a391?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNXw&ixlib=rb-4.0.3&q=80&w=1080',
   feature2Title: undefined,
   feature3Description: undefined,
-  feature1ImgSrc:
-    'https://images.unsplash.com/photo-1495195129352-aeb325a55b65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
+  feature1ImgSrc: healthmesh,
   feature1Description: undefined,
   feature2Description: undefined,
   feature2ImgAlt: 'Conference Table',

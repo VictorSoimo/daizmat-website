@@ -36,8 +36,7 @@ const Testimonial17 = (props) => {
               >
                 <div className="testimonial17-container12">
                   <img
-                    alt={props.author1Alt}
-                    src={props.author1Src}
+                
                     className="testimonial17-image1"
                   />
                   <div className="testimonial17-container13">
@@ -81,8 +80,7 @@ const Testimonial17 = (props) => {
               >
                 <div className="testimonial17-container14">
                   <img
-                    alt={props.author2Alt}
-                    src={props.author2Src}
+                   
                     className="testimonial17-image2"
                   />
                   <div className="testimonial17-container15">
@@ -119,7 +117,7 @@ const Testimonial17 = (props) => {
               </div>
             </div>
           </div>
-          <div className="thq-animated-card-bg-2">
+          {/* <div className="thq-animated-card-bg-2">
             <div className="thq-animated-card-bg-1">
               <div
                 data-animated="true"
@@ -164,8 +162,8 @@ const Testimonial17 = (props) => {
                 </span>
               </div>
             </div>
-          </div>
-          <div className="thq-animated-card-bg-2">
+          </div> */}
+          {/* <div className="thq-animated-card-bg-2">
             <div className="thq-animated-card-bg-1">
               <div
                 data-animated="true"
@@ -210,7 +208,7 @@ const Testimonial17 = (props) => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
@@ -221,12 +219,6 @@ Testimonial17.defaultProps = {
   author3Name: undefined,
   review3: undefined,
   content1: undefined,
-  author4Alt: 'Image of Emily Brown',
-  author1Alt: 'Image of John Doe',
-  author4Src:
-    'https://images.unsplash.com/photo-1494253109108-2e30c049369b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
-  author2Src:
-    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
   author4Position: undefined,
   author3Position: undefined,
   author2Position: undefined,
@@ -234,14 +226,10 @@ Testimonial17.defaultProps = {
   heading1: undefined,
   review4: undefined,
   review2: undefined,
-  author2Alt: 'Image of Jane Smith',
   review1: undefined,
-  author3Src:
-    'https://images.unsplash.com/photo-1673259490113-f61211378f51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNXw&ixlib=rb-4.0.3&q=80&w=1080',
-  author1Src:
-    'https://images.unsplash.com/photo-1559752160-bdad0b5e2161?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxM3w&ixlib=rb-4.0.3&q=80&w=1080',
+  author3Src: "",
+  author1Src:"",
   author1Name: undefined,
-  author3Alt: 'Image of David Johnson',
   author1Position: undefined,
   author2Name: undefined,
 }

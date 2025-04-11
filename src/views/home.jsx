@@ -40,7 +40,7 @@ const Home = (props) => {
         }
         action2={
           <Fragment>
-            <span className="home-text109">Call Us</span>
+            <span className="home-text109"><a href="tel:+254788066666">Call Us</a></span>
           </Fragment>
         }
         
@@ -105,7 +105,7 @@ const Home = (props) => {
       <CTA26
         action1={
           <Fragment>
-            <span className="home-text124">Shop Now</span>
+            <span className="home-text124"><a href = "https://wa.me/254788066666?text=Hi, I am interested in your funriture. I saw them on your website">Shop Now</a></span>
           </Fragment>
         }
         content1={
@@ -164,7 +164,7 @@ const Home = (props) => {
         }
       ></Features25>
       
-      <Steps2
+      {/* <Steps2
         step1Title={
           <Fragment>
             <span className="home-text184">Explore Our Collection</span>
@@ -223,40 +223,23 @@ const Home = (props) => {
             </span>
           </Fragment>
         }
-      ></Steps2>
+      ></Steps2> */}
       <Testimonial17
         review1={
           <Fragment>
             <span className="home-text192">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Elegant and modern Furniture with good after sale support service.
             </span>
           </Fragment>
         }
         review2={
           <Fragment>
             <span className="home-text193">
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              My back stopped paining after i started using their ergonomic seats. Highly recommend.
             </span>
           </Fragment>
         }
-        review3={
-          <Fragment>
-            <span className="home-text194">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
-            </span>
-          </Fragment>
-        }
-        review4={
-          <Fragment>
-            <span className="home-text195">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
-            </span>
-          </Fragment>
-        }
+        
         content1={
           <Fragment>
             <span className="home-text196">
@@ -272,44 +255,26 @@ const Home = (props) => {
         }
         author1Name={
           <Fragment>
-            <span className="home-text198">John Doe</span>
+            <span className="home-text198">Rift Valley Sports Club</span>
           </Fragment>
         }
         author2Name={
           <Fragment>
-            <span className="home-text199">Jane Smith</span>
+            <span className="home-text199">Jeskim Cyber</span>
           </Fragment>
         }
-        author3Name={
-          <Fragment>
-            <span className="home-text200">David Johnson</span>
-          </Fragment>
-        }
-        author4Name={
-          <Fragment>
-            <span className="home-text201">Emily Brown</span>
-          </Fragment>
-        }
+      
         author1Position={
           <Fragment>
-            <span className="home-text202">CEO, Company ABC</span>
+            <span className="home-text202">Accountant, Rift Valley Sports Club</span>
           </Fragment>
         }
         author2Position={
           <Fragment>
-            <span className="home-text203">HR Manager, Company XYZ</span>
+            <span className="home-text203">HR Manager, Jeskim Cyber</span>
           </Fragment>
         }
-        author3Position={
-          <Fragment>
-            <span className="home-text204">COO, Business123</span>
-          </Fragment>
-        }
-        author4Position={
-          <Fragment>
-            <span className="home-text205">Office Manager, Startup456</span>
-          </Fragment>
-        }
+       
       ></Testimonial17>
       <Contact10
         content1={

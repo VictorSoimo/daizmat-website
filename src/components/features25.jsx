@@ -3,6 +3,7 @@ import React, { useState, Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import './features25.css'
+import highbackleather from '../assets/website/img-7.jpg'
 
 const Features25 = (props) => {
   const [activeTab, setActiveTab] = useState(0)
@@ -137,8 +138,7 @@ Features25.defaultProps = {
     'https://images.unsplash.com/photo-1619763515915-8e6d599f2935?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
   feature3ImgAlt: 'Customizable Options Image Alt Text',
   feature1Title: undefined,
-  feature1ImgSrc:
-    'https://images.unsplash.com/photo-1512658740823-0ebb97b3b86e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjYxMjMxNHw&ixlib=rb-4.0.3&q=80&w=1080',
+  feature1ImgSrc: highbackleather,
   feature1Description: undefined,
 }
 

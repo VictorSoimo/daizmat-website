@@ -47,7 +47,7 @@ const Hero17 = (props) => {
             <span className="thq-body-small">
               {props.action1 ?? (
                 <Fragment>
-                  <span className="hero17-text6">Shop Now</span>
+                  <span className="hero17-text6"><a href = "https://wa.me?254788066666?text=Hi, I am interested in your funriture. I saw them on your website">Shop Now</a></span>
                 </Fragment>
               )}
             </span>
